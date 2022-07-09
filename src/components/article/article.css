@@ -1,0 +1,58 @@
+@media (max-width: 900px) {
+    .article-container{
+    flex-direction: column;
+}
+
+}
+
+.article-container{
+    border-bottom: 1px solid transparent;
+    margin: 20px 0;
+}
+
+.article-container-2{
+    display: flex;
+    position: relative;
+}
+
+.article-photo{
+    margin: 20px;
+    object-fit: cover;
+    position: relative;
+}
+
+.article-photo-2{
+    position: relative;
+}
+
+.wrapper{
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height: 25.3px;
+    position: relative;
+    z-index: auto;
+}
+
+.article-content{
+    flex: 1 1;
+    margin: 20px;
+}
+
+.article2{
+    margin-top: 60px;
+}
+
+.img{
+   width: 50%;
+   height: 50%;
+}
+
+.title{
+    font-family: monospace;
+}
+
+.article{
+    font-family: monospace;
+    font-size: 120%;
+}

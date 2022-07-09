@@ -1,0 +1,44 @@
+
+.navigation-main{
+    background-color: black;
+    box-shadow: 0 5px 20px -10px black;
+    opacity: 60%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navigation-module-navbar{
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    min-height: 40px;
+    padding: 10px 15px 10px 50px;
+}
+
+.navigation-module-logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-text{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.header1{
+    font-family: monospace;
+    color: white;
+}
+
+.header2{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}

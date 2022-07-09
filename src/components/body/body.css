@@ -1,0 +1,36 @@
+.layout{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+
+.layout-blog{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width: 960px;
+    box-shadow: 0 5px 20px -10px black;
+}
+
+.layout-blog-container{
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height: 25.3px;
+    position: static;
+    z-index: auto;
+}
+.layout-blog-vertical{
+    box-sizing: content-box;
+    display: block;
+    float: none;
+    line-height: 25.2px;
+    position: static;
+    z-index: auto;
+}
+
+.section:not(first-child){
+    margin-top: 60px;
+}
