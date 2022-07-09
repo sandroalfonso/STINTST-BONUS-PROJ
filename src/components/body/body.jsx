@@ -138,7 +138,7 @@ const body = () => {
                                 <p>However, we can consider other variables that could affect BMI, we can conclude that it helped show the true relationship between “diet score” and BMI. For this example, the dataset would most likely look like this.</p>
                                 <p>Having this dataset, we can easily apply the multiple linear regression equation:</p>
                                 <p><strong>h(x) = 𝜃1𝑥1 +𝜃2𝑥2 + 𝜃0 </strong></p>
-                                <p>BMI = 18 + 1.5(diet score) + 1.6(male) + 4.2 (age > 20)</p>
+                                <p>BMI = 18 + 1.5(diet score) + 1.6(male) + 4.2 (age {'>'} 20)</p>
                                     <ul>
                                         <li>𝜃0 (Intercept) = base value = 18.0</li>
                                         <li>𝜃x  = Slope for each variable</li>
